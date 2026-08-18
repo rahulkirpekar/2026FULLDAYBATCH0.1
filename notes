@@ -1,0 +1,20 @@
+Array Declaration:- 
+--------------------------
+	int a[] = new int[5];
+	float a[] = new float[5];
+	double a[] = new double[5];
+--------------------------------------------
+	int a[] = new int[5];
+	int[] a = new int[5];
+	int []a = new int[5];
+	int [] a = new int[5];
+-----
+	int [] a = null;
+	a = new int[5];
+-----
+Array Declaration With Initialisation:-
+-----------------------------------------
+	int a[] = {10,20,30,40,50};
+	int a[] = new int[]{10,20,30,40,50};
+	 
+	
