@@ -15,7 +15,6 @@ public class TestApp2
 			
 			System.out.println("a.length : " + a.length);
 			
-			
 			for (int i = 0; i < a.length; i++) 
 			{
 				System.out.println("Enter A["+ i +"]: ");
@@ -42,10 +41,5 @@ public class TestApp2
 //		-----------------------------------------
 //			int a9[] = {10,20,30,40,50};
 //			int a10[] = new int[]{10,20,30,40,50};
-			 
-			
-
-		
 	}
-
 }

@@ -1,0 +1,37 @@
+OOP's (Object oriented Programming) Features:-
+-----------------------------------------------
+	1. class-------User Defined DataType
+	2. object------class variable-object
+	3. encapsulation
+	4. inheritance
+	5. polymorphism
+	6. abstraction
+---------------------------------------------------------------------------------------------------------------
+
+class Student
+{
+	// 1. Data / Instance Members----Data
+
+	// 2. Constructors(Default , Para ==> Copy)
+
+	// 3. Member Function / Instance Memthod----Operation--->Data(Dm's)
+
+	public static void main(String args[])
+	{
+		// Buissness Logic
+	}
+}
+
+
+
+Employee
+	int id
+	String name
+	double salary
+	String dsgn
+	String orgName
+---------------------------------------------
+
+TestApp2
+	main
+		e1,e2,e3,e4,e5
