@@ -1,0 +1,16 @@
+Constructor:-
+-------------
+
+	1. Default
+	2. Para ==> Copy
+
+
+	Object(Dm's--Data)
+	------------------
+		1. Member Function
+		2. constructor
+
+	Student s1= new Student();// 
+	
+
+	Create Object = [1. Memory Allocation + 2. Constructor value set]
