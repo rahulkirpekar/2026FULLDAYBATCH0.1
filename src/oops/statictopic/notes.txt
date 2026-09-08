@@ -1,0 +1,44 @@
+class Student
+{
+	int rno,std,marks;
+	String name;
+	
+	static String schoolName;
+};
+	Student s1 = new Student();
+	Student s2 = new Student();
+	Student s3 = new Student();
+	   
+   s1      s2      s3
+-------------------------
+rno=1	|rno=10	|rno=3	|-Per Object Memory Allocation
+name	|name	|name	|-Per Object Memory Allocation
+std	|std	|std	|-Per Object Memory Allocation
+marks	|marks	|marks	|-Per Object Memory Allocation
+--------------------------
+	   |	
+	   |			DPS--3 Bytes * 3000 = 9000 Bytes/-
+	   |
+	schoolName="DPS"--Class Level Memory Allocation(Only One Copy)
+
+	s1.rno = 1;
+	s2.rno = 2;
+	s3.rno = 3
+
+	s2.rno = 10;
+
+	SOP(s1.rno);// 1
+
+
+	s1.schoolName = "Royal";
+	s2.schoolName--Royal
+	s3.schoolName--Royal
+
+
+
+
+
+
+
+
+	
