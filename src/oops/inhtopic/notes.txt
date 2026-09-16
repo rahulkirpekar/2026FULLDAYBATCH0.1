@@ -1,0 +1,83 @@
+Inheritance :- To reuse the code/logic / To reduce code/logic duplication.
+---------------
+
+					Type of Relation
+					-----------------
+		Employee is-a Person// 100% true		Employee Has-A Address
+		Kia is-a Car
+								class Address
+								{
+								}
+								class Employee
+								{
+									Address addres = new Address();
+								}
+
+			1. IS-A Relation			2. HAS-A Relation
+			-----------------			-----------------
+				|				===> Employee Has-A Address
+				|
+				|
+			Type of Inheritance (HH:MM:S)
+			----------------------
+
+1. Single 	2. Multilevel		3. Hierarchical		4. Multiple		5. Hybrid-->Multiple
+----------	--------------		----------------	--------------		--------------
+    A(no1)		A(no1)		     A(no1)		A(no1)	B(no1)			A(no1)
+    |			|		      |			|	|			|
+    B(no2)		B(no2)		-------------		---------		-----------------
+			|		|	    |		     |			|		|	
+A obj;// no1		C(no3)		B(no2)	   C(no3)	     C(no3)		B(no2)		C(no3)
+B obj;// no1,no2						A obj;// no1		|		|
+		A obj;// no1		A obj;// no1		B obj;// no2		-----------------
+		B obj;// no1,no2	B obj;// no1,no2	C obj;// no1,no2,no3		|
+		C obj;// no1,no3,no3	C obj;// no1,no3					D(no4)	
+											A obj;// no1
+											B obj;// no1,no2
+											C obj;// no1,no3
+											D obj;// no1,no2,no3,no4				
+	
+
+
+
+    A(Parent/Super/Base)
+    |
+    B(Child/Derived/Sub)		
+
+
+		
+Access Modifiers:-
+------------------
+
+	1.private---within class
+	2.default(default)--package level private
+	3.protected--access in same package  + outside package with IS-A
+	4.public--cann access everywhere
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

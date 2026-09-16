@@ -29,8 +29,8 @@ public class Student
 		System.out.println("Enter Marks : ");
 		marks = sc.nextInt();
 		
-//		System.out.println("Enter SchoolName : ");
-//		schoolName = sc.nextLine();
+		System.out.println("Enter SchoolName : ");
+		schoolName = sc.nextLine();
 	}
 	public void dispData() 
 	{
