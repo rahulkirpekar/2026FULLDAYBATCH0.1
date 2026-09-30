@@ -1,0 +1,195 @@
+Polymorphism:- Ability to take more than one form(method).
+---------------
+
+	void payment(UPI upi)
+	{
+
+	}
+	void payment(COD cod)
+	{
+
+	}
+	void payment(BankTransfer bt)
+	{
+
+	}
+	void payment(Wallet wallet)
+	{
+
+	}
+
+
+	payment
+		    UPI
+		    COD
+	payment-----BankTransfer
+		    Wallet
+		    CreditCard
+---------------------------------------------------------------------------------------------------------------------
+
+				Type of Polymorphism
+				---------------------
+	1. Compiletime Polymorphism			2. Runtime Polymorphism
+	--------------------------------		--------------------------------
+	==> Static Binding				==> Dynamic Binding
+	==> Early Binding				==> Late Binding
+Example:-					Example:-
+---------					---------
+	==> Method Overloadding				==> Method Overridding
+		
+
+
+
+
+2. Runtime Polymorphism:-
+--------------------------
+
+
+					A
+					|
+	-------------------------------------------------------------------------
+	|			|			|			| 	
+	B			C			D			E
+	
+
+	A obj = null;
+
+
+	obj = new A();
+
+	// Upcasting(Parent reference = Child Object)
+	obj = new B();
+
+	obj = new C();
+	
+	obj = new D();
+
+	obj = new B();
+
+
+
+
+
+				      Person(void getBehave()---Human)
+					|
+	-------------------------------------------------------------------------
+	|			|			|			|
+     School		       Org	  	     PublicPlace	       Home			
+	|			|			|			|
+    getBehave()		   getBehave()		    getBehave()		   getBehave()<==Method Overridde
+	|			|			|			|
+     Student		    Employee                 Citizen                  Child
+
+
+
+	Person p = null;
+
+	p = new School();// Runtime / Late Binding / Dynamic Binding
+	p.getBehave();// Child -- method -- execute--runtime
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
