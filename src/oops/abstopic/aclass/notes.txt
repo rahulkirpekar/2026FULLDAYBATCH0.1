@@ -1,0 +1,25 @@
+Abstraction:-
+------------
+
+		Two ways to apply Abstraction
+		-----------------------------
+	1. 0% to 100%				2. 100%
+	--------------				--------------
+	Abstract class				interface(Pure abstraction)
+
+Abstract class :-
+------------------
+
+public abstract class A
+{
+	1. Data Members
+	2. Constructors
+		
+	3. Methods
+		1. abstract methods
+		2. Non-abstract methods
+}
+
+
+	
+	

@@ -1,0 +1,17 @@
+100% Abstraction (interface):-
+-----------------------------
+
+	1. Constant Variables(public static final)
+	2. methods
+		1. abstract methods
+			void test1(); // public abstract 
+			
+		2. Non-abstract methods
+			1. static method--8
+			2. default method--8
+			3. private method--9			
+	
+
+	class		interface		interface		class
+	 |--extends	 |--extends		  |--implements		 |--(Not Possible in Java)
+	class		interface		class			interface
