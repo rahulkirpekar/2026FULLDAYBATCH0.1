@@ -1,0 +1,9 @@
+
+
+
+			Object(public String toString(){ hashcode})
+			  |
+	-----------------------------------------
+	|-value					|
+public String toString(){value}		    toString()--return rno+" "+name+ " " +std+" " +marks;
+     String				      Student	
