@@ -1,5 +1,20 @@
 
 
+class Student
+{
+	int rno,std,marks;
+	String name;
+	void scanData(){}	
+	void dispData(){}	
+}
+class A
+{
+	PSVM()
+	{
+		Student s = new Student();
+		SOP(s);
+	}
+}
 
 			Object(public String toString(){ hashcode})
 			  |
