@@ -1,0 +1,97 @@
+Exception:- Abnormal Scenario.
+-----------
+
+	10 / 0 // Exceptional Scenario ==> Exception class ==> Code Crashed
+
+
+	Statement----1
+	Statement----2
+	Statement----3
+	Statement----4
+	Statement----5---code crashed--JVM Abnormal Terminate
+	Statement----6
+	Statement----7
+	Statement----8
+	Statement----9
+	Statement----10
+-----------------------------------------------------------------------------------------------------------
+			Type of Exception
+			-------------------
+	1. checked Exception		2. Un-checked Exception
+	---------------------		------------------------
+	==> compiletime			==> Runtime Exception
+		|				|
+	    Compiler			      JVM(Java Virtual Machine)	
+-------------------------------------------------------------------------------------------------
+			Hierarchy of Exception
+			-----------------------
+
+				Throwable(C)
+				   |
+				Exception(C)
+				   |
+				   |
+    compiler			   |			      JVM--Runtime Exception
+	---------------------------------------------------------   |
+	|--Checked Exception					|--UnChecked Exception
+--SQLException						   RuntimeException(C)	
+--FileNotFoundException						|
+--ClassNotFoundException				--NumberformatException
+...							--StringIndexoutofBoundException				
+							--ArrayIndexoutofBoundException				
+							--ClassCastException
+							--InputMismatchException
+							--ArithmeticException
+							--NullpointerException
+
+
+
+	
+    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
