@@ -1,0 +1,43 @@
+Stream - Buffer Area
+-------------------------
+1. InputStream --read(To read Data From Console/File/Socket)
+2. OutputStream--write(To write Data on Console/File/Socket)
+3. ErrorStream (Display Error Log)
+
+
+			   OutputStream
+	Java-Program-----------write--------->File/Socket/Console
+
+			   InputStream
+	Java-Program<----------read-----------File/Socket/Console
+
+
+1. Byte orientedway(String/Object):-
+----------------------------------------
+	FileOutputStream(write)
+	FileInputStream(read)
+
+2. character orientedway(String Data):-
+----------------------------------------
+	FileWriter
+	FileReader
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
